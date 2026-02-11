@@ -1,8 +1,13 @@
+import os
 from fastapi import FastAPI
-from .database import engine, Base
-from . import models
-from .auth import router as auth_router
-from .tasks import router as tasks_router
+from app.database import engine, Base
+from app import models
+from app.auth import router as auth_router
+from app.tasks import router as tasks_router
+
+CREATE_TABLES = os.getenv("CREATE_TABLES", "false").lower() in ("1", "true", "yes")
+if CREATE_TABLES:
+    Base.metadata.create_all(bind=engine)
 
 app = FastAPI()
 
