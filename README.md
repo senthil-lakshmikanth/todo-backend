@@ -1,9 +1,9 @@
 ## 🚀 Live API
 Base URL: https://todo-backend-ma5f.onrender.com
 
-#### 1️⃣ Signup: `POST /signup` and 2️⃣ Login: `POST /login`
+1️⃣ Signup: `POST /signup` and 2️⃣ Login: `POST /login`
 
-Request Body
+##### Request Body
 ```
 {
   "email": "user@example.com",
@@ -11,7 +11,7 @@ Request Body
 }
 ```
 
-Login Response
+##### Login Response
 ```
 {
   "access_token": "your_jwt_token",
@@ -19,14 +19,14 @@ Login Response
 }
 ```
 
-##### 🔑 Using the Access Token
+🔑 Using the Access Token
 
-Header Format
+##### Header Format
 ```
 Authorization: Bearer <access_token>
 ```
 
-➕ Create Task ```POST /tasks``` and ✏️ Update Task ```PUT /tasks/{id}``` 
+➕ Create Task `POST /tasks` and ✏️ Update Task `PUT /tasks/{id}` 
 
 ##### Request Body
 ```
