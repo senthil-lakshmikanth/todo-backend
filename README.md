@@ -17,8 +17,12 @@ Login Response
 }
 ```
 
+🔑 Using the Access Token
+```
+Authorization: Bearer <access_token>
+```
 
-➕ Create Task ```POST /tasks``` Request Body
+➕ Create Task ```POST /tasks``` and ✏️ Update Task ```PUT /tasks/{id}``` Request Body
 ```
 {
   "title": "Task title",
