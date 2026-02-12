@@ -20,6 +20,7 @@ Login Response:
 ```
 
 🔑 Using the Access Token
+
 Header Format
 ```
 Authorization: Bearer <access_token>
