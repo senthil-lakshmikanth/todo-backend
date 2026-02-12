@@ -3,17 +3,8 @@
 
 1️⃣ Signup
 ```POST /signup```
-
-Request Body
-```
-{
-  "email": "user@example.com",
-  "password": "strongpassword"
-}
-```
-
 2️⃣ Login
-```POST /login```
+``` POST /login ```
 
 Request Body
 ```
