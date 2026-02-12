@@ -9,7 +9,7 @@ Base URL: https://todo-backend-ma5f.onrender.com
 }
 ```
 
-2️⃣ Login ``` POST /login ``` Request Body
+2️⃣ ``` POST /login ``` Request Body
 ```
 {
   "email": "user@example.com",
