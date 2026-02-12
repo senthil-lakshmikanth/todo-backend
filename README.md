@@ -1,9 +1,7 @@
 ## 🚀 Live API
 Base URL: https://todo-backend-ma5f.onrender.com
 
-1️⃣ Signup
-```POST /signup```
-Request Body
+1️⃣ Signup ```POST /signup``` Request Body
 ```
 {
   "email": "user@example.com",
@@ -11,11 +9,7 @@ Request Body
 }
 ```
 
-2️⃣ Login
-``` 
-POST /login
-```
-Request Body
+2️⃣ Login ``` POST /login ``` Request Body
 ```
 {
   "email": "user@example.com",
@@ -31,10 +25,8 @@ Login Response
 }
 ```
 
-➕ Create Task
-```POST /tasks```
 
-Request Body
+➕ Create Task ```POST /tasks``` Request Body
 ```
 {
   "title": "Task title",
@@ -42,7 +34,6 @@ Request Body
   "due_date": "2026-02-20T12:00:00"
 }
 ```
-
 
 📋 Get All Tasks
 ```GET /tasks```
