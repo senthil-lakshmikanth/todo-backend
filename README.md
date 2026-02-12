@@ -1,7 +1,7 @@
 ## 🚀 Live API
 Base URL: https://todo-backend-ma5f.onrender.com
 
-#### 1️⃣ Signup: ```POST /signup``` and 2️⃣ Login: ``` POST /login ``` 
+#### 1️⃣ Signup: `POST /signup` and 2️⃣ Login: `POST /login`
 
 Request Body
 ```
